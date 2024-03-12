@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApi", "MainApi\MainApi.csproj", "{26590B30-E6B9-430B-A0F0-264DF26AC930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApi", "MainApi\MainApi.csproj", "{26590B30-E6B9-430B-A0F0-264DF26AC930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainLib", "MainLib\MainLib.csproj", "{94BAB7BA-2629-459A-92A4-A20003DDD878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainLib", "MainLib\MainLib.csproj", "{94BAB7BA-2629-459A-92A4-A20003DDD878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Submodule1", "Submodule1\Submodule1\Submodule1.csproj", "{55312544-3B2C-4BB6-BA0C-05B1B60E97DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{94BAB7BA-2629-459A-92A4-A20003DDD878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94BAB7BA-2629-459A-92A4-A20003DDD878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94BAB7BA-2629-459A-92A4-A20003DDD878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55312544-3B2C-4BB6-BA0C-05B1B60E97DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55312544-3B2C-4BB6-BA0C-05B1B60E97DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55312544-3B2C-4BB6-BA0C-05B1B60E97DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55312544-3B2C-4BB6-BA0C-05B1B60E97DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
